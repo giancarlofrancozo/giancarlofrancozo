@@ -15,13 +15,25 @@ Tecnologias e Ferramentas
 
 ---
 
-#Projeto em Destaque: Casa dos Filmes
+#Projeto em Destaque: Sistema de pizzaria
 
-Recentemente, desenvolvi um sistema de gerenciamento e avaliação de filmes para colocar em prática conceitos avançados de bancos de dados relacionais:
+Desenvolvi um sistema completo de gerenciamento de comandas para pizzarias usando Python.
 
-- **O que faz:** Login/Cadastro, gerenciamento de catálogo e sistema de avaliações.
-- **Destaque Técnico:** Uso de **SQLAlchemy** para mapeamento objeto-relacional (ORM), relacionamentos 1:N entre usuários e avaliações, e validação de dados em tempo real.
-- **Link do Projeto: ** [Acesse aqui o repositório](https://github.com/giancarlofrancozo/Banco-de-dados)
+O projeto nasceu de uma ideia simples: substituir o controle manual de pedidos em papel por uma solução digital acessível pelo celular, sem precisar instalar nada.
+
+O que foi construído:
+
+- API REST com FastAPI e banco de dados SQLite via SQLAlchemy
+- Interface web responsiva em HTML, CSS e JavaScript puro, acessível por qualquer celular na rede Wi-Fi da pizzaria
+- Módulo do garçom para abrir mesas e registrar pedidos com suporte a meio a meio, borda recheada e tamanho broto/grande
+- Tela da cozinha com atualização de status em tempo real
+- Painel do caixa com controle de faturamento e fechamento de comandas
+- Sistema de login com controle de acesso por nível (admin/garçom)
+- Interface via terminal com a biblioteca Rich para uso alternativo
+
+Foi um projeto de aprendizado que me fez trabalhar com arquitetura em camadas, modelagem de banco de dados relacional, desenvolvimento de APIs e frontend mobile.
+
+GitHub: https://github.com/giancarlofrancozo/sistema-pizzaria
 
 ---
 
