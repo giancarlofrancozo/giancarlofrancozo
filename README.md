@@ -36,11 +36,9 @@ Repositório: https://github.com/giancarlofrancozo/IA_WHATSAPP
 
 ### Sistema de gestão para pizzaria
 
-Sistema para comandas de restaurantes e pizzarias, com interface web responsiva acessível pelo celular na rede Wi-Fi. Inclui módulo do garçom com mapa de mesas, meio a meio e bordas recheadas, tela da cozinha com atualização de status e módulo do caixa com pagamento parcial, cálculo de troco e fechamento de comandas. O backend usa API REST em FastAPI, SQLAlchemy e SQLite, com login e controle de acesso por nível (administrador e garçom).
+Sistema completo e moderno para gestão operacional de pizzarias, salões e delivery, desenvolvido com foco em alta performance, robustez offline/local e facilidade de operação.
 
-Repositório: https://github.com/giancarlofrancozo/Gestao_pizzaria
-
-Demonstração em vídeo: https://youtu.be/UFahEj4N4pg
+Repositório: https://github.com/giancarlofrancozo/pizzamanager
 
 ### Bot de notas fiscais
 
